@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(245, 245, 43);
+}
+.menu li a{
+    color: rgb(236, 231, 231);
+text-decoration: none;
+}
+.menu li a:hover {
+	text-decoration: underline; 
+        font-weight: bolder;
+        text-decoration: none;
+        color:rgb(245, 245, 43);
+	}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, .sobreMim{
+    background-color:#343e34f5;
+}
+
+ul {
+    display: flex;
+    width: 49%;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    height: 10vh;
+    
+}
+
+ul > li {
+    list-style: none;
+}
+
+body{
+    color: grey;
+}
+
+.banner{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 120px;
+    font-size: 1.5rem;
+}
+.banner_title-color{
+    color: rgb(236, 231, 231);;
+}
+.banner h4{
+    color:black;
+}
+.banner_title{
+    font-size: 40px;
+}
+.seta{
+    padding: 50px;
+}
+.seta_img{
+    width: 2%;
+}
+.sobre_titles{
+    color:rgb(236, 231, 231);
+    text-align: center;
+    padding: 2%;
+}
+.projetos_title{
+    color:black;
+    text-align: center;
+    padding: 50px;
+}
+.projetos_site{
+    display: flex;
+}
+.projetos{
+    height: 90vh;
+}
+.site_img{
+    width:90%;
+}
+.site_title{
+    color: #B3B2B2;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 20px;
+    text-align: center;
+}
+.btn_link{
+    color: #48CFAD;
+    border: 2px solid #48CFAD;
+    padding: 7px;
+    margin-top: 18px;
+    font-size: 0.87rem;
+    margin-bottom: 21px;
+    border-radius: 15px;
+}
+.sobreMim{
+    background-color:#343e34f5;
+    text-align: center;
+}
+.sobreMim_img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 157px;
+    object-fit: cover;
+    width: 157px;
+}
+.sobreMim_description{
+    color:#ddd;
+}
+.contato, .titles{
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.contato{
+    height: 50vh;
+}
+.contato_icons{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+}
+.contato_img{
+    width: 10%;    
+}
+.contato_img-icon{
+    width: 100%;
+}
+
+footer{
+    background-color:#343e34f5;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
+h5{
+    color: rgb(236, 231, 231);
+}
+@media(min-width:328px) and (max-width:768px){
+    body{
+        background-color:rgb(88, 21, 21);
+    }
+ul{
+    width: unset;
+}
+.projetos_site{
+    display: block;
+    text-align: center;
+}
+.projetos{
+    height: 110vh;
+}
+.contato_icons{
+    display: block;
+    width: 19%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    display: none;
+}
+.site_title{
+    margin-top: 5%;
+}
+.container{
+    margin:auto;
+}
+.contato{
+
+}
+.seta_img{
+    width: 10%;
+}
+
+}
